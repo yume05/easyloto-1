@@ -1,0 +1,32 @@
+<!--
+/**************************************************************************************************/
+/* Redefinitions des balises HTML */ 
+/**************************************************************************************************/
+*{margin:0;padding:0;}
+
+body, h1, h2, h3, h4, h5, h6, a, .input_text, select, textarea{font:18px/1.2em "Trebuchet MS", Arial, Helvetica, Sans-serif;font-weight:normal;color:#000;}
+
+img{border:0}
+
+a{text-decoration:underline;outline:none; font-size:14px}
+a:hover{text-decoration:none;}
+
+ul,ol,li{list-style-type: none; margin: 0px; padding: 0px;}
+
+select option{padding:0 3px;}
+
+hr{display:none; }
+.clear{clear: both;}
+fieldset{border:none;}
+fieldset legend{display:none;}
+/****************************************************************************************************/
+/* Structure generale */ 
+/****************************************************************************************************/
+body{text-align:center;}
+
+div#global{position:relative; width:770px;text-align:left; margin:0 auto 2px auto; border: 1px solid #aabb44;}
+
+ul#boules{background: url(../images/bg-menu.jpg) repeat-x; height: 25px; padding: 0px 10px;}
+ul#boules li{float: left; padding: 3px 0px 5px 15px; color: white; font-size: 14px;}
+
+.bottom{position: absolute; right: 0px; bottom: 0px; padding: 5px; font-size: 7px;}
